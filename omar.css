@@ -128,9 +128,47 @@
   padding-left: 10px;
 }
 
+.lan img{
+  width: 50px;
+}
+
+.lan {
+  display: flex;
+  margin-top: -70px;
+  margin-left: 70px;
+}
+
+.lan .im{
+  display: flex;
+
+}
+
+.lan .im2{
+  margin-left: 30px;
+}
+
+.lan .im h3{
+  margin-left: 15px;
+  color: black;
+}
+
+.lan .im2 h3{
+  margin-left: 7px;
+  color: black;
+}
+
 @media only screen and (max-width: 600px){
   .bio .info{
     display: grid;
+  }
+
+  .lan{
+    display: grid;
+    margin-left: 5px;
+  }
+
+  .lan .im2{
+    margin-left: 2px;
   }
 
   .bio{
