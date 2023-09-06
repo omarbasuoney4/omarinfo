@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
+}
+
+.head{
+  display: flex;
+  left: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.home{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.home img{
+  border: 2px #fff solid ;
+  border-radius: 30px;
+  box-shadow: 0px 5px 92px 21px rgba(0,0,0,0.1);
+  
+}
+
+
+.img img{
+  margin-right: 160px;
+  margin-top: -100px;
+}
+
+.img{
+  display: flex;
+  width: 100%;
+}
+
+.img h2{
+  margin-top: 50px;
+  margin-right: -150px;
+}
+
+.img h1{
+  margin-right: 60px;
+}
+
+.img i{
+  margin-left: 150px;
+}
+
+.img .om1 i {
+  font-size: 30px;
+  margin-right: 380px;
+  margin-top: 30px;
+  color: black;
+}
+
+.img .om2 i {
+  font-size: 30px;
+  margin-right: -120px;
+  margin-top: 30px;
+  color: black;
+}
+
+.bio{
+  margin-right: 190px;
+  box-shadow: 0px 0px 18px 11px rgba(0,0,0,0.1);
+  width: 70%;
+  height: 330px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border: 2px #d6d6d6 solid;
+  border-radius: 30px;
+}
+
+.bio h1{
+  padding: 30px;
+}
+
+.bio p {
+  padding-right: 30px;
+}
+
+.bio hr{
+  margin-top: 20px;
+}
+
+.bio .contact h2{
+  font-size: 30px;
+  padding: 20px;
+}
+
+.info{
+  display: flex;
+  padding-top: 30px;
+}
+
+.info .call{
+  padding-right: 30px;
+  display: flex;
+}
+
+.info .call i{
+  font-size: 15px;
+}
+
+.info .call h4{
+  font-size: 15px;
+}
+
+.info .mail{
+  padding-right: 60px;
+  display: flex;
+}
+
+.info .map{
+  padding-right: 60px;
+  display: flex;
+}
+
+.info h4{
+  padding-right: 10px;
+}
+
+.lan img{
+  width: 50px;
+}
+
+.lan {
+  display: flex;
+  margin-top: -70px;
+  margin-right: 70px;
+}
+
+.lan .im{
+  display: flex;
+
+}
+
+.lan .im2{
+  margin-right: 30px;
+}
+
+.lan .im h3{
+  margin-right: 15px;
+  color: black;
+}
+
+.lan .im2 h3{
+  margin-right: 7px;
+  color: black;
+}
+
+@media only screen and (max-width: 800px){
+  .home{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .bio .info{
+    display: grid;
+  }
+
+  .lan{
+    display: grid;
+    margin-left: 5px;
+  }
+
+  .lan .im2{
+    margin-right: 2px;
+  }
+
+  .bio{
+    height: 400px;
+    margin-right: 60px;
+    margin-top: 40px;
+  }
+
+  .mail{
+    margin-right: -30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .map{
+    margin-right: -30px;
+  }
+
+  .img .h1{
+    margin-top: 110px;
+    display: flex;
+    margin-right: -170px;
+  }
+
+  .img .h2{
+    margin-top: 160px;
+    text-align: center;
+    margin-right: -190px;
+  }
+
+  .home {
+    width: 200px;
+    display: none;
+  }
+  .img{
+    margin-top: 150px;
+  }
+
+  .img .img1{
+    margin-right: 140px ;
+  }
+
+  .img .om1{
+    margin-right: -520px;
+    margin-top: 200px;
+  }
+
+  .img .om2{
+    margin-top: 200px;
+  }
+
+
+}
